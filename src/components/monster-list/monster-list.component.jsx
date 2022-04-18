@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import './monster-list.styles.css'
+import './monster-list.styles.scss'
 
 class MonsterList extends Component {
 
@@ -12,7 +12,7 @@ class MonsterList extends Component {
         const { name, id } = this.props.monster
 
         return(
-            <ul className='card-container' style={{ color: '#000000' }}>
+            <ul className='card-container' >
                <li>
                 <img alt={name} src={`https://robohash.org/${id}?set=set2&size=180x180`} />
                 <br />

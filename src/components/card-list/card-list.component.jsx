@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import MonsterList from '../monster-list/monster-list.component'
-import './card-list.styles.css'
+import './card-list.styles.scss'
 
 class CardList extends Component{
 
